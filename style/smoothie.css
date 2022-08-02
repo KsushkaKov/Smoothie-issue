@@ -1,0 +1,99 @@
+* {
+  font-family: "Lato", sans-serif;
+}
+
+.container {
+  max-width: 620px;
+  margin: auto;
+  border-radius: 16px;
+  background: linear-gradient(60deg, #abecd6 0%, #fbed96 100%);
+  box-shadow: 5px 5px 24px rgba(106, 126, 4, 0.778);
+}
+h1 {
+  color: rgba(14, 113, 28, 0.657);
+
+  text-align: center;
+  font-size: 48px;
+  font-weight: bold;
+  padding-top: 24px;
+  text-shadow: 1px 1px 4px;
+}
+
+h2 {
+  color: rgba(158, 13, 44, 0.611);
+
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  border: 2px solid rgba(163, 6, 66, 0.25);
+  border-radius: 48px;
+}
+
+span {
+  text-decoration: underline;
+  color: rgba(158, 13, 44);
+}
+
+img {
+  display: block;
+  max-width: 100%;
+
+  margin: 0 auto;
+  border-radius: 28px;
+}
+
+li {
+  list-style: none;
+  color: rgba(6, 89, 17, 0.898);
+  font-weight: 600;
+}
+.smoothie-recipe {
+  text-transform: uppercase;
+  text-align: center;
+  color: rgb(57, 126, 18);
+  text-decoration: underline;
+}
+
+.description {
+  text-align: justify;
+  padding: 0 10px;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+a {
+  text-decoration: none;
+  font-size: 14px;
+  padding-left: 10px;
+  color: rgb(45, 105, 4);
+}
+
+.button {
+  display: block;
+  margin: 20px auto;
+  text-transform: uppercase;
+  font-size: 1em;
+  font-weight: 900;
+  cursor: pointer;
+  color: rgba(157, 16, 47, 0.804);
+  background-color: rgba(94, 203, 124, 0.349);
+  border-style: none;
+  border-radius: 24px;
+  padding: 10px;
+  transition: opasity 200ms ease-in-out;
+  opacity: 1;
+  box-shadow: 3px 3px 6px;
+}
+
+.button:hover {
+  cursor: pointer;
+  color: white;
+  background-color: rgba(157, 16, 47, 0.455);
+}
+
+.footer {
+  padding: 10px 5px;
+  text-align: end;
+  color: rgb(45, 105, 4);
+  font-size: 14px;
+}
